@@ -1,6 +1,6 @@
 # Thebulka
 
-**Thebulka** is an esoteric programming language themed around **baking**. It uses a central accumulator `n`, named variables, string and numeric operations, and playful “ingredient”-based syntax.
+**Thebulka** is an esoteric programming language themed around **baking** named after a garden cat called **Blue**. It uses a central accumulator `n`, named variables, string and numeric operations, and playful “ingredient”-based syntax.
 
 ---
 
@@ -26,6 +26,9 @@ The main variable `n` can hold strings, characters, or numbers. Named variables 
 - `<buluka>`  Substitutes the current value of `n`
 - `bulka`  Prints the current value of `n`
 - `bulya`  Clears `n`
+#### `+bul`/`-bul`changes asci value of `n` if its one charectered else raises a `ToManyIngredientError`
+- `+bul` adds (amount of `*bul*`+ amount of `*bull*`* 5 + amount of `*buluma*`* 10 + amount of `*bulbul*`* 100) to `n`'s asci value
+- `-bul` substracts (amount of `*bul*`+ amount of `*bull*`* 5 + amount of `*buluma*`* 10 + amount of `*bulbul*`* 100) from `n`'s asci value
 ### Random Numbers
 - `<random>`  Inserts a random float between 0 and 1
 - `/bulr NAME MIN MAX` sets variable `NAME` to a random integer betwen `MIN` and `MAX`
